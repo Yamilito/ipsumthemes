@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    background-color: ;
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+header {
+    background-color: cadetblue;
+    background-image: url(images/hero.jpg);
+    background-repeat: no-repeat;
+    
+    width: 1600px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+
+
+nav ul {
+    margin: 0;
+    
+    padding: 0;
+    list-style: none;
+    
+    
+}
+
+nav ul li {
+    float: left;
+    margin-left: 37px;
+    margin-top: 80px;
+    font-family: Open Sans;
+    
+}
+
+nav ul li:nth-child(1) {
+    margin-left: 10px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ebb683;
+    font-size: 25px;
+}
+
+nav ul:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+header h1 {
+    margin: 0px;
+    margin-top: 280px;
+    margin-left: 10px;
+    font-size: 112px;
+    font-family: open sans;
+    font-weight: normal;
+    color: #fadec3;
+}
+
+section {
+    background-color: ;
+    height: 600px;
+
+
+}
+.wrapper-body {
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.col {
+    float: left;
+    width: 280px;
+    margin: 10px;
+    font-family: Open Sans;
+    color:#9c836f;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+span {
+    display: block;
+    background-image: url(images/icon.png);
+    height: 158px;
+    width: 158px;
+    margin-left: 70px;
+    margin-top: 100PX;
+}
+
+
+
+footer {
+    background-color: darkgoldenrod;
+    height: 353px;
+}
